@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Vazirmatn;
+    src: url("fonts/Vazirmatn-Medium.eot"), url("fonts/Vazirmatn-Medium.woff"),
+      url("fonts/Vazirmatn-Medium.woff2 format('woff2')"),
+      url("fonts/Vazirmatn-Thin.ttf"), url("fonts/Vazirmatn-Light.ttf"),
+      url("fonts/Vazirmatn-Thin.woff2"), url("fonts/Vazirmatn-Light.woff2");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+          font-family: Sahel;
+          src: url("fonts/Sahel.eot");
+          src: url("fonts/Sahel.eot?#iefix") format("embedded-opentype"),
+            url("fonts/Sahel.woff2") format("woff2"),
+            url("fonts/Sahel.woff") format("woff"),
+            url("fonts/Sahel.ttf") format("truetype");
+          font-weight: normal;
+        }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sahel;
+   
+  }
+  
+  body {
+    /* background-image: linear-gradient(180deg, #eee, #fff 100px, #fff); */
+    /* background-color: --bs-secondary-bg; */
+  }
+  a {
+    text-decoration: none;
+   
+  }
+  li {
+    list-style: none;
+  }
+  .pricing{
+    max-width: 700px;
+    margin:10px auto;
+   
+  }
+  .container {
+    max-width: 960px;
+}
+.icon{
+  width:15px;
+  height:15px;
+}
+.logo-footer{
+  width:24px;
+  height:19px;
+}
